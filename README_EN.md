@@ -261,7 +261,7 @@ sequenceDiagram
     Note over Jev: Jev executes 30ms forward pass & calibrated gate evaluation
     Jev->>Policy: Switch primitive: PRIMITIVE_SURFACE_SUPPORT_ABORT
     Policy->>Reflex: Stream compliant descend-and-support trajectory
-    Reflex-->>Jev: Base contacts surface; shear slip arrested; state stable
+    Reflex-->>Jev: Base contacts surface, shear slip arrested, state stable
     Jev-->>VLM: Async status dispatch: subtask_aborted_safe_landing
 ```
 
